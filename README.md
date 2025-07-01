@@ -27,4 +27,6 @@ An set of automatic lights that turns on and off automatically according to envi
 | Resistor 47kΩ        | 1        |
 | Push Button 6mm      | 1        |
 
+Made by [@Shubham](https://hackclub.slack.com/team/U07FW3J47ME)!
+
 Made as a part of [Solder YSWS](http://solder.hackclub.com/)!
