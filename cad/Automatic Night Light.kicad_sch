@@ -1091,10 +1091,16 @@
 		)
 	)
 	(junction
-		(at 99.06 54.61)
+		(at 99.06 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "64c57712-e136-4d17-a146-74174e95989c")
+		(uuid "05b1462a-9116-4cc0-8c59-363f5127da6b")
+	)
+	(junction
+		(at 90.17 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16fa3cb9-02e7-468e-b891-6e9031fd4830")
 	)
 	(junction
 		(at 99.06 62.23)
@@ -1133,16 +1139,10 @@
 		(uuid "8efe9e35-7320-4f08-80cc-31f55dff55d8")
 	)
 	(junction
-		(at 90.17 54.61)
+		(at 107.95 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cda3234e-142a-4010-b3a2-af899603db57")
-	)
-	(junction
-		(at 107.95 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fa201087-e532-4819-9cef-1fc6d89990ce")
+		(uuid "c6683571-9162-4ad8-aab0-0f97dae8cb89")
 	)
 	(wire
 		(pts
@@ -1206,23 +1206,23 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 38.1) (xy 99.06 38.1)
+			(xy 99.06 41.91) (xy 107.95 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "126d5a6a-a300-4e6b-98f3-f223030b783f")
+		(uuid "1a837ff0-1f36-4c64-900b-d40a510c827b")
 	)
 	(wire
 		(pts
-			(xy 81.28 54.61) (xy 90.17 54.61)
+			(xy 81.28 41.91) (xy 90.17 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "19c92e19-8101-4b24-91b2-7e2f99ccdba1")
+		(uuid "24083581-4fae-4d50-90e5-ce369e345ee6")
 	)
 	(wire
 		(pts
@@ -1266,6 +1266,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 44.45) (xy 99.06 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40c9b37e-5db9-4f8a-8dd6-6d10f20cc978")
+	)
+	(wire
+		(pts
 			(xy 81.28 62.23) (xy 90.17 62.23)
 		)
 		(stroke
@@ -1283,6 +1293,26 @@
 			(type default)
 		)
 		(uuid "4321a803-d20e-4709-be5b-f936fa236f40")
+	)
+	(wire
+		(pts
+			(xy 107.95 52.07) (xy 107.95 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44054f53-d8b6-45fd-b3e4-a4608829ef50")
+	)
+	(wire
+		(pts
+			(xy 90.17 52.07) (xy 90.17 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dd85bbe-ebb5-4d72-a3ca-76236ed95281")
 	)
 	(wire
 		(pts
@@ -1306,33 +1336,63 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 54.61) (xy 99.06 54.61)
+			(xy 81.28 52.07) (xy 81.28 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6c7763a2-23ab-494c-a78a-c0e0da272462")
+		(uuid "78cce6ef-9a9e-452d-83c6-a984f90426a3")
 	)
 	(wire
 		(pts
-			(xy 99.06 54.61) (xy 107.95 54.61)
+			(xy 116.84 44.45) (xy 116.84 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c028bad5-b526-4b10-bd8c-f8bd12821707")
+		(uuid "7af0f335-2191-4327-b1c2-d638d231f70b")
 	)
 	(wire
 		(pts
-			(xy 107.95 54.61) (xy 116.84 54.61)
+			(xy 107.95 44.45) (xy 107.95 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c04fb250-7b75-443f-acbb-a045a0a04dd4")
+		(uuid "a2fe5b6f-835a-404c-ab1b-d49a60bf4fc0")
+	)
+	(wire
+		(pts
+			(xy 99.06 38.1) (xy 99.06 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5b1b09d-7353-402a-96e3-065a51eebcd8")
+	)
+	(wire
+		(pts
+			(xy 90.17 44.45) (xy 90.17 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9021502-6374-4fab-a1ec-9179e01aceaf")
+	)
+	(wire
+		(pts
+			(xy 90.17 41.91) (xy 99.06 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b08f6c46-c4fd-4f60-9f86-d70e8787de94")
 	)
 	(wire
 		(pts
@@ -1356,6 +1416,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 41.91) (xy 107.95 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d57414e6-d742-4ee4-9ae3-18e048e218aa")
+	)
+	(wire
+		(pts
 			(xy 53.34 53.34) (xy 53.34 49.53)
 		)
 		(stroke
@@ -1366,13 +1436,33 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 45.72) (xy 99.06 54.61)
+			(xy 99.06 38.1) (xy 60.96 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8482bf3-7a86-4ddc-a408-fb3fe79312cf")
+	)
+	(wire
+		(pts
+			(xy 99.06 52.07) (xy 99.06 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "db9bb751-2c67-4c00-8b0e-c3d9150d983c")
+	)
+	(wire
+		(pts
+			(xy 81.28 41.91) (xy 81.28 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcf03e99-8e8c-4b54-ad98-a75222d038b8")
 	)
 	(wire
 		(pts
@@ -1383,6 +1473,16 @@
 			(type default)
 		)
 		(uuid "e06934a4-2dfd-4658-97e1-c6f72a94dfef")
+	)
+	(wire
+		(pts
+			(xy 116.84 52.07) (xy 116.84 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e23644e3-2059-4ed1-882a-57e71081aa80")
 	)
 	(symbol
 		(lib_id "Device:LED")
@@ -1537,6 +1637,76 @@
 			(project "Automatic Night Light"
 				(path "/82f3f32f-3457-4082-965c-78b29eb15f2b"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 116.84 48.26 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "213da658-5ad0-48d4-b117-82aad42cd223")
+		(property "Reference" "R4"
+			(at 119.38 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "220Ω"
+			(at 119.38 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 118.618 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 116.84 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6aaf445e-2a26-4a7e-bdec-f763934ae03f")
+		)
+		(pin "1"
+			(uuid "b5fddfc3-9a6a-4796-b528-9bb3fbf8c56b")
+		)
+		(instances
+			(project "Automatic Night Light"
+				(path "/82f3f32f-3457-4082-965c-78b29eb15f2b"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -1710,7 +1880,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bd565bb-fdd8-4c9d-850d-853c30f20bbe")
-		(property "Reference" "R3"
+		(property "Reference" "R7"
 			(at 63.5 40.6399 0)
 			(effects
 				(font
@@ -1764,7 +1934,7 @@
 		(instances
 			(project "Automatic Night Light"
 				(path "/82f3f32f-3457-4082-965c-78b29eb15f2b"
-					(reference "R3")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -1991,7 +2161,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 99.06 41.91 180)
+		(at 99.06 48.26 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1999,8 +2169,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c313698-e45b-43f8-87e5-6ec9c724fd6d")
-		(property "Reference" "R2"
-			(at 101.6 40.6399 0)
+		(property "Reference" "R1"
+			(at 101.6 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2009,7 +2179,7 @@
 			)
 		)
 		(property "Value" "220Ω"
-			(at 101.6 43.1799 0)
+			(at 101.6 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2018,7 +2188,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 100.838 41.91 90)
+			(at 100.838 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2027,7 +2197,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 99.06 41.91 0)
+			(at 99.06 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2036,7 +2206,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 99.06 41.91 0)
+			(at 99.06 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2053,7 +2223,7 @@
 		(instances
 			(project "Automatic Night Light"
 				(path "/82f3f32f-3457-4082-965c-78b29eb15f2b"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -2069,7 +2239,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a30ec7dd-c459-4ed6-9e16-3b751bbfb66e")
-		(property "Reference" "R1"
+		(property "Reference" "R6"
 			(at 63.5 73.6599 0)
 			(effects
 				(font
@@ -2124,7 +2294,147 @@
 		(instances
 			(project "Automatic Night Light"
 				(path "/82f3f32f-3457-4082-965c-78b29eb15f2b"
-					(reference "R1")
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 90.17 48.26 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0fa2080-5aa4-403f-81f7-b92a94134419")
+		(property "Reference" "R3"
+			(at 92.71 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "220Ω"
+			(at 92.71 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 91.948 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 90.17 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4eb80962-8dc4-486b-90cf-39254e80f1a2")
+		)
+		(pin "1"
+			(uuid "9862ac96-c210-4383-a5e1-94afe80d5918")
+		)
+		(instances
+			(project "Automatic Night Light"
+				(path "/82f3f32f-3457-4082-965c-78b29eb15f2b"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 81.28 48.26 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3ead25d-4216-4f7c-843c-6b97c0936e88")
+		(property "Reference" "R5"
+			(at 83.82 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "220Ω"
+			(at 83.82 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 83.058 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 81.28 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "300bb51f-d147-42fa-92a3-485f47ddbdb4")
+		)
+		(pin "1"
+			(uuid "0d3d1e3a-1ae1-4ed8-84ce-0d764a83be40")
+		)
+		(instances
+			(project "Automatic Night Light"
+				(path "/82f3f32f-3457-4082-965c-78b29eb15f2b"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -2201,6 +2511,76 @@
 			(project "Automatic Night Light"
 				(path "/82f3f32f-3457-4082-965c-78b29eb15f2b"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 107.95 48.26 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebdf79a8-71a6-42cb-9794-6616d70748e5")
+		(property "Reference" "R2"
+			(at 110.49 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "220Ω"
+			(at 110.49 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 109.728 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 107.95 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "beaadf85-1873-459c-96bf-8245e3bb1822")
+		)
+		(pin "1"
+			(uuid "1016ab50-e4d9-454d-a687-5acfac22fcfe")
+		)
+		(instances
+			(project "Automatic Night Light"
+				(path "/82f3f32f-3457-4082-965c-78b29eb15f2b"
+					(reference "R2")
 					(unit 1)
 				)
 			)
