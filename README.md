@@ -4,16 +4,16 @@ An set of automatic lights that turns on and off automatically according to envi
 
 ## Schematic
 
-![](./images/schematic.png)
+![](./images/schematic.png?)
 
 ## PCB
 
-![](./images/pcb.png)
+![](./images/pcb.png?)
 
 ## 3D Images
 
-![](./images/3d1.png)
-![](./images/3d2.png)
+![](./images/3d1.png?)
+![](./images/3d2.png?)
 
 ## Bill Of Materials
 
